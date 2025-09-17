@@ -9,10 +9,20 @@ export default defineConfig({
 		starlight({
 			plugins: [starlightBlog({
 				title: {
-    			 en: 'My Blog',},
+    			 en: 'Blog',},
+				postCount: 5,
+				recentPostCount: 10,
+			authors: {
+				hideoo: {
+				name: 'Kamal Dhingra',
+				title: 'Cyber & AI Security',
+				picture: '/hideoo.png', // Images in the `public` directory are supported.
+				url: 'https://hideoo.dev',
+				},
+		},
 
 		})],
-			title: 'My Docs',
+			title: 'Kamal Dhingra',
 			social: [{ icon: 'github', label: 'GitHub', href: 'https://github.com/withastro/starlight' }],
 			sidebar: [
 				{
