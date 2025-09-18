@@ -23,6 +23,7 @@ export default defineConfig({
 
 		})],
 			title: 'Kamal Dhingra',
+			description: 'Cyber, AI Security & Beyond..',
 			social: [{ icon: 'github', label: 'GitHub', href: 'https://github.com/withastro/starlight' }],
 			sidebar: [
 				{
