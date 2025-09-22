@@ -6,6 +6,7 @@ import StackCard from "@components/StackCard.astro"
 import { SITE, SOCIALS } from "@consts"
 import TwinklingStars from "@components/TwinklingStars.astro"
 import MeteorShower from "@components/MeteorShower.astro"
+const baseUrl = import.meta.env.BASE_URL;
 
 const posts = (await getCollection("blog"))
   .filter(post => !post.data.draft)
@@ -65,7 +66,7 @@ const stack = [
     </div>
   </div>
 
-  <script is:inline src="/js/bg.js"></script>
+  <script is:inline src=`${baseUrl}/js/bg.js`></script>
   
   <!-- HERO -->
   <section class="relative h-screen w-full">
