@@ -6,7 +6,7 @@ import solidJs from "@astrojs/solid-js"
 
 // https://astro.build/config
 export default defineConfig({
-  site: "https://kamaldhingra1.github.io/me",
+  site: "https://kamaldhingra1.github.io",
   base: "/me",
   outDir: './docs',
   output: "static",
