@@ -61,23 +61,24 @@ export const SOCIALS: Socials = [
     TEXT: "dhingra_kk@yahoo.com",
     HREF: "mailto:dhingra_kk@yahoo.com",
   },
-  { 
-    NAME: "Github",
-    ICON: "github",
-    TEXT: "kamaldhingra1",
-    HREF: "https://github.com/kamaldhingra1"
-  },
+
   { 
     NAME: "LinkedIn",
     ICON: "linkedin",
     TEXT: "Kamal Dhingra",
     HREF: "https://www.linkedin.com/in/kamaldhingra/",
   },
-  { 
-    NAME: "Twitter",
-    ICON: "twitter-x",
-    TEXT: "Kamal Dhingra",
-    HREF: "https://twitter.com/x",
+    { 
+    NAME: "Github",
+    ICON: "github",
+    TEXT: "kamaldhingra1",
+    HREF: "https://github.com/kamaldhingra1"
   },
+  // { 
+  //   NAME: "Twitter",
+  //   ICON: "twitter-x",
+  //   TEXT: "Kamal Dhingra",
+  //   HREF: "https://twitter.com/x",
+  // },
 ]
 
