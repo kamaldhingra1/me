@@ -15,9 +15,10 @@ const baseUrl = import.meta.env.BASE_URL;
           <svg class="size-6 fill-current">
             <use href=`${baseUrl}/brand.svg#brand`></use>
           </svg>
-          <div>
-            {SITE.TITLE}
-          </div>
+          <div class="animated text-2xl">
+            {SITE.TITLE} 
+          </div> 
+
         </a>
       </div>
 
@@ -63,8 +64,10 @@ const baseUrl = import.meta.env.BASE_URL;
           <use href=`${baseUrl}/ui.svg#x`></use>
         </svg>
       </button>
-    </div>
+    </div> <div class="animated text-sm">
+    </br></br><br/> {SITE.DESCRIPTION} </div>
   </div>
+          
   </Container>
 </header>
 
