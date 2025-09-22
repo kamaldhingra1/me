@@ -1,5 +1,7 @@
 import type { Site, Page, Links, Socials } from "@types"
 
+const baseUrl = import.meta.env.BASE_URL;
+
 // Global
 export const SITE: Site = {
   TITLE: "Kamal Dhingra",
@@ -39,15 +41,15 @@ export const LINKS: Links = [
   },
   { 
     TEXT: "Work", 
-    HREF: "/work", 
+    HREF: `${baseUrl}/work`, 
   },
   { 
     TEXT: "Blog", 
-    HREF: "/blog", 
+    HREF: `${baseUrl}/blog`, 
   },
   { 
     TEXT: "Projects", 
-    HREF: "/projects", 
+    HREF: `${baseUrl}/projects`, 
   },
 ]
 
