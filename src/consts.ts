@@ -11,8 +11,8 @@ export const SITE: Site = {
 
 // Work Page
 export const WORK: Page = {
-  TITLE: "Work",
-  DESCRIPTION: "Places I have worked.",
+  TITLE: "About",
+  DESCRIPTION: "Know more About me.",
 }
 
 // Blog Page
@@ -22,10 +22,10 @@ export const BLOG: Page = {
 }
 
 // Projects Page 
-export const PROJECTS: Page = {
-  TITLE: "Projects",
-  DESCRIPTION: "Recent projects I have worked on.",
-}
+// export const PROJECTS: Page = {
+//   TITLE: "Projects",
+//   DESCRIPTION: "Recent projects I have worked on.",
+// }
 
 // Search Page
 export const SEARCH: Page = {
@@ -39,18 +39,19 @@ export const LINKS: Links = [
     TEXT: "Home", 
     HREF: `${baseUrl}/`, 
   },
-  { 
-    TEXT: "Work", 
-    HREF: `${baseUrl}/work`, 
-  },
+  
   { 
     TEXT: "Blog", 
     HREF: `${baseUrl}/blog`, 
   },
   { 
-    TEXT: "Projects", 
-    HREF: `${baseUrl}/projects`, 
+    TEXT: "About", 
+    HREF: `${baseUrl}/work`, 
   },
+  // { 
+  //   TEXT: "Projects", 
+  //   HREF: `${baseUrl}/projects`, 
+  // },
 ]
 
 // Socials
