@@ -1,4 +1,5 @@
 
+import __ASTRO_IMAGE_IMPORT_Z1cFbA6 from "./spongebob.png?astroContentImageFlag=&importer=src%2Fcontent%2Fblog%2F01-Getting-Started%2Findex.md";
 import __ASTRO_IMAGE_IMPORT_Z1sJARh from "./spongebob.png?astroContentImageFlag=&importer=src%2Fcontent%2Fblog%2F04-astro-sphere-writing-markdown%2Findex.md";
-export default new Map([["./spongebob.png?astroContentImageFlag=&importer=src%2Fcontent%2Fblog%2F04-astro-sphere-writing-markdown%2Findex.md", __ASTRO_IMAGE_IMPORT_Z1sJARh]]);
+export default new Map([["./spongebob.png?astroContentImageFlag=&importer=src%2Fcontent%2Fblog%2F01-Getting-Started%2Findex.md", __ASTRO_IMAGE_IMPORT_Z1cFbA6], ["./spongebob.png?astroContentImageFlag=&importer=src%2Fcontent%2Fblog%2F04-astro-sphere-writing-markdown%2Findex.md", __ASTRO_IMAGE_IMPORT_Z1sJARh]]);
 		
