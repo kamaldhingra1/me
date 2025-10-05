@@ -84,7 +84,7 @@ export default function SearchCollection({ entry_name, data, tags }: Props) {
                 class="absolute flex justify-center items-center h-full w-10 right-0 top-0 stroke-neutral-400 dark:stroke-neutral-500 hover:stroke-neutral-600 hover:dark:stroke-neutral-300"
               >
                 <svg class="size-5">
-                  <use href={`${baseUrl}/ui.svg#x`} />
+                  <use href={`${baseUrl}ui.svg#x`} />
                 </svg>
               </button>
             )}</div>
@@ -111,11 +111,11 @@ export default function SearchCollection({ entry_name, data, tags }: Props) {
                       )}
                     >
                       <use
-                        href={`${baseUrl}/ui.svg#square`}
+                        href={`${baseUrl}ui.svg#square`}
                         class={cn(!filter().has(tag) ? "block" : "hidden")}
                       />
                       <use
-                        href={`${baseUrl}/ui.svg#square-check`}
+                        href={`${baseUrl}ui.svg#square-check`}
                         class={cn(filter().has(tag) ? "block" : "hidden")}
                       />
                     </svg>
