@@ -42,7 +42,7 @@ export const LINKS: Links = [
   
   { 
     TEXT: "Blog", 
-    HREF: `${baseUrl}/blog`, 
+    HREF: `/blog`, 
   },
   { 
     TEXT: "About", 

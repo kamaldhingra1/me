@@ -28,7 +28,7 @@ const baseUrl = import.meta.env.BASE_URL;
           <div class="flex flex-col items-center sm:items-start">
             <a href=`${Astro.site}/${baseUrl}` class="flex gap-1 w-fit font-semibold text-current hover:text-black dark:hover:text-white transition-colors duration-300 ease-in-out">
               <svg class="size-6 fill-current">
-                <use href=`${baseUrl}/brand.svg#brand`/>
+                <use href=`${baseUrl}brand.svg#brand`/>
               </svg>
               {SITE.TITLE}
             </a>  &copy; 2025 | All rights reserved
@@ -43,7 +43,7 @@ const baseUrl = import.meta.env.BASE_URL;
                     class="group size-10 rounded-full p-2 items-center justify-center hover:bg-black/5 dark:hover:bg-white/20  blend"
                   >
                     <svg class="size-full fill-current group-hover:fill-black group-hover:dark:fill-white blend">
-                      <use href={`${baseUrl}/social.svg#${SOCIAL.ICON}`} />
+                      <use href={`${baseUrl}social.svg#${SOCIAL.ICON}`} />
                     </svg>
                   </a>
                 ))
