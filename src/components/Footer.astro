@@ -26,13 +26,13 @@ const baseUrl = import.meta.env.BASE_URL;
       <Container size="md">
         <div class="grid grid-cols-1 sm:grid-cols-2 gap-3">
           <div class="flex flex-col items-center sm:items-start">
-            <a href=`${Astro.site}/${baseUrl}` class="flex gap-1 w-fit font-semibold text-current hover:text-black dark:hover:text-white transition-colors duration-300 ease-in-out">
+            <a href=`${Astro.site}` class="flex gap-1 w-fit font-semibold text-current hover:text-black dark:hover:text-white transition-colors duration-300 ease-in-out">
               <svg class="size-6 fill-current">
                 <use href=`${baseUrl}brand.svg#brand`/>
               </svg>
               {SITE.TITLE}
-            </a>  &copy; 2025 | Om Tat Sat | Made with <a href="https://astro.build/themes/details/astrosphere/" > Astro Sphere </a>
-          </div>
+            </a> <p>&copy; 2025 | <a href="https://www.google.com/search?q=om+tat+sat+at+the+end+of+writing&sca_esv=d00b6f86044a483b&rlz=1C5GCCM_en&ei=1STjaNyhA_zj5NoP64S9-Q0&oq=om+tat+sat+at+the+end+of+wri&gs_lp=Egxnd3Mtd2l6LXNlcnAiHG9tIHRhdCBzYXQgYXQgdGhlIGVuZCBvZiB3cmkqAggAMgUQIRigATIFECEYoAEyBRAhGKABMgUQIRigAUi5LVCkAliBH3ADeAGQAQCYAXygAcsGqgEDNy4yuAEByAEA-AEBmAIMoAKGB8ICChAAGLADGNYEGEfCAgUQIRirAsICBRAhGJ8FwgIHECEYoAEYCpgDAIgGAZAGCJIHAzguNKAH9TiyBwM1LjS4B_wGwgcFMC43LjXIBxw&sclient=gws-wiz-serp" target="_blank" title="Click to Know the meaning" >  Om Tat Sat </a> |  <a href="https://astro.build/themes/details/astrosphere/" target="_blank"> Made with Astro Sphere </a></p>
+          </div> 
             <div class="flex flex-wrap gap-1 items-center justify-center">
               {
                 SOCIALS.map((SOCIAL) => (
@@ -51,8 +51,7 @@ const baseUrl = import.meta.env.BASE_URL;
               </div>
 
         </div>
-      </Container>
-    </section>
+      </Container> </section>
   
    
   </div>
