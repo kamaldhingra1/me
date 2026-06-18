@@ -23,7 +23,13 @@ const baseUrl = import.meta.env.BASE_URL;
 <div>
   <article>
     <Content/>
+    <div class="text-xs italic text-gray-500">
+    <p>All content provided on this blog is for informational and educational purposes only. The views expressed here are mine alone and do not represent the views of my employer. </p>
+     </div> <div class="text-right">
+ <a href="/om" title="Click to Know the meaning" target="_blank" class="text-sm" >  Om Tat Sat </a> 
+</div>
   </article>
+
   <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
     <a href={`${baseUrl}${prev.collection}/${prev.slug}`} class="group p-4 gap-3 flex items-center border rounded-lg hover:bg-black/5 hover:dark:bg-white/10 border-black/15 dark:border-white/20 blend">
       <div class="order-2 w-full h-full group-hover:text-black group-hover:dark:text-white blend">
